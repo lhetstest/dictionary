@@ -1,11 +1,20 @@
 import './App.css';
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Hello, this is Dictionary Application.
-      </header>
+      <div className='container'>
+        <header className="App-header">
+          Hello, this is Dictionary Application.
+        </header>
+        <main className="App-main">
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          Coded by <a className="App-link" href="https://github.com/lhetstest/dictionary">LHEST</a>
+        </footer>
+      </div>
     </div>
   );
 }

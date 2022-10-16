@@ -1,0 +1,9 @@
+.Dictionary {
+    background-color: rgb(218, 224, 227);
+    min-height: 60vh;
+    max-width: 800px;
+    color: #333;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
