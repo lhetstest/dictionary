@@ -9,7 +9,7 @@ const Synonyms = (props) => {
                 })}
             </ul>
         )
-    } else {
+    } else {
         return null;
     }
 }
