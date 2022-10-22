@@ -1,0 +1,11 @@
+.Results {
+    padding-top: 15px;
+    text-align: left;
+}
+
+.Results section {
+    background-color: rgb(201, 221, 245, 0.7);
+    border-radius: 8px;
+    border: 2px solid rgb(146, 146, 237);
+    margin-bottom: 8px;
+}

@@ -1,5 +1,5 @@
 import './App.css';
-import Dictionary from "./Dictionary";
+import Dictionary from "./components/Dictionary";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
           Hello, this is Dictionary Application.
         </header>
         <main className="App-main">
-          <Dictionary />
+          <Dictionary defaultKeyword="sunrise"/>
         </main>
         <footer className="App-footer">
           Coded by <a className="App-link" href="https://github.com/lhetstest/dictionary">LHEST</a>

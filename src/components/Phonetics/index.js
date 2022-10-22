@@ -1,11 +1,12 @@
 import React from "react";
+import "./style.css";
 
 const Phonetics = (props) => {
     return (
-        <div >
-            <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
+        <div className="Phonetics">
+            <a className="btn" href={props.phonetic.audio} target="_blank" rel="noreferrer">
                 Listen
-            </a><br />
+            </a>
             {props.phonetic.text}
         </div>
     )
