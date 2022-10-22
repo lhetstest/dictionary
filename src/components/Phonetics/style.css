@@ -6,6 +6,7 @@
     text-decoration: none;
     color: #61dafb;
     margin-right: 10px;
+    transition: all 150ms ease-in-out;
 }
 
 .btn {

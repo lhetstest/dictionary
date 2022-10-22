@@ -1,6 +1,8 @@
 # Dictionary App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application created as a task of React course.
+To use this SPA type the word in the field and click "Enter" on the keyboard.
+
 
 ## Available Scripts
 
